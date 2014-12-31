@@ -1,0 +1,146 @@
+aside{
+    position: absolute;
+    width: 400px;
+    left: 55px;
+    top: 54px;
+    bottom: 0px;
+    
+    background-color: #333;
+    overflow:auto;
+    
+    transition-duration: 0.6s;
+}
+
+aside #menu_sup{
+    width: 100%;
+    height: 30px;
+    background-color: #333;   
+}
+
+aside #menu_sup #categoria{
+    font-family: 'Droid Sans', sans-serif;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+aside #menu_sup #img_refresh{
+    height: 22px;
+    right: 0px;
+    position: absolute;
+    margin-top: 4px;
+}
+
+aside #menu_sup #img_slide{
+    height: 22px;
+    right: 22px;
+    position: absolute;
+    margin-top: 4px;
+}
+
+aside #conteudo{
+    
+}
+
+aside #conteudo #box_cont{
+    width: 380px;
+    height: 75px;
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+
+}
+
+/* Imagem */
+aside #conteudo #box_cont #div_img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+aside #conteudo #box_cont #div_img img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+/* fim da imagem */
+
+
+/* Inicio do conteudo */
+aside #conteudo #box_cont #div_cont{
+    float: right;
+    width: 320px;
+}
+
+aside #conteudo #box_cont #div_cont #div_head #feed_titulo{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+aside #conteudo #box_cont #div_cont #div_head #feed_titulo:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+aside #conteudo #box_cont #div_cont #div_head #feed_name{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 4px;
+    color: #888;
+}   
+
+aside #conteudo #box_cont #div_cont #div_head #link_feed{
+    text-decoration: none;
+}
+
+aside #conteudo #box_cont #div_cont #div_head #link_feed:hover{
+    text-decoration: underline;
+}
+
+aside #conteudo #box_cont #div_cont #div_head #sobre{
+    
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #aaa;
+    width: 380px;
+}
+
+aside #conteudo #box_cont #div_cont #div_head #time{
+    float: right;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* Final do conteudo */
+
+#frame{
+    position: absolute;
+    top: 54px;
+    left: 455px;
+    right: 0px;
+    bottom: 4px;
+    
+    margin: 0px;
+    border: 0px;
+    
+    transition-duration: 0.6s;
+    
+   
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border: 0px;  
+    
+    transition: 1s;
+    -webkit-transition: 1s;
+    
+}

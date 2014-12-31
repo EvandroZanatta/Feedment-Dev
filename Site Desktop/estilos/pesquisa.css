@@ -1,0 +1,150 @@
+aside{
+    position: absolute;
+    width: 400px;
+    left: 55px;
+    top: 54px;
+    bottom: 0px;
+    
+    background-color: #666;
+    overflow:auto;
+    
+    transition-duration: 0.6s;
+}
+
+#caixa_pesq{
+    width: 100%;
+    background-color: #333;
+}
+
+#caixa_pesq #pesq_query{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 17px;
+    color: #999;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    outline: none;
+    padding: 4px;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 300px;
+}
+
+#caixa_pesq #pesq_query:focus{
+    border: 1px solid #E74C3C;
+}
+
+#caixa_pesq #pesq_button{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    color: #eee;
+    width: 85px;
+    height: 30px;
+    padding: 2px;
+    background-color: #e74c3c;
+    border: 1px solid #e74c3c;
+    outline: none;
+    border-radius: 2px;
+}
+
+#caixa_pesq #pesq_button:hover{
+    border: 1px solid #c0392b;
+}
+
+#caixa_pesq #pesq_button:active{
+    background-color: #c0392b;
+    border: 1px solid #c0392b;
+}
+
+#conteudo{
+    
+}
+
+#conteudo #box_cont{
+    width: 380px;
+    height: 75px;
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+
+}
+
+/* Imagem */
+#conteudo #box_cont #div_img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+#conteudo #box_cont #div_img img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+/* fim da imagem */
+
+
+/* Inicio do conteudo */
+#conteudo #box_cont #div_cont{
+    float: right;
+    width: 320px;
+}
+
+#conteudo #box_cont #div_cont #div_head a{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+#conteudo #box_cont #div_cont #div_head a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#conteudo #box_cont #div_cont #div_head #feed_name{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 4px;
+    color: #888;
+}
+
+#conteudo #box_cont #div_cont #div_head #sobre{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #aaa;
+}
+
+#conteudo #box_cont #div_cont #div_head #time{
+    float: right;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+#frame{
+    position: absolute;
+    top: 54px;
+    left: 455px;
+    right: 0px;
+    bottom: 4px;
+    
+    margin: 0px;
+    border: 0px;
+    
+    transition-duration: 0.6s;
+    
+   
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border: 0px;  
+    
+    transition: 1s;
+    -webkit-transition: 1s;
+    
+}
